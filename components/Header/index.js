@@ -28,6 +28,10 @@ function Header() {
     newDate.classList.add('date');
     newTemp.classList.add('temp');
 
+    newDate.textContent = 'October 4, 2019';
+    newH1.textContent = 'Lambda Times';
+    newTemp.textContent = '98 Degrees';
+
     return newHeader;
 }
 
